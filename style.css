@@ -1,11 +1,24 @@
-<!DOCTYPE html>
- <html>
- <head>
-  <style>
+
+header {
+    display: flex;
+    border: 2px solid powderblue;
+}
+
         body {background-color: rgb(12, 8, 8);}
         p    {color: rgb(255, 255, 255);}
+        h1   {color: #aa6516;}
+body {
+    background-image: url('thar my niko style 2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+h1 {
+  
+  padding: 30px;
+}
 p {
-  border: 2px solid powderblue;
+
   padding: 30px;
 }
 .city {
@@ -18,29 +31,4 @@ p {
   color: black;
   padding: 40px;
   text-align: center;
-}
-body {
-  background-image: url('thar my niko style.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: 100% 100%;
-}
-*{
-    margin:auto;
-    padding: 0;
-
-}
-.logo{
-    width: 32px;
-    height: 32px;
-    border-radius: 90px;
-}
-header{
-    height: 10yh;
-    display flex;
-    justify-content: space-between;
-    background-color: blue;
-}
-form{
-    font-size: 20px;
 }
